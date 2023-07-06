@@ -10,21 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20dcddd9-cfa5-4d33-aa3e-711ea27c80a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/AddBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/BookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/DeleteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/dals/BookDAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/dals/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/edit.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +204,7 @@
       <workItem from="1688456681979" duration="9648000" />
       <workItem from="1688470177546" duration="1151000" />
       <workItem from="1688606816947" duration="1288000" />
-      <workItem from="1688608128325" duration="2877000" />
+      <workItem from="1688608128325" duration="4181000" />
     </task>
     <servers />
   </component>
@@ -233,22 +221,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/labguide/dals/BookDAL.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

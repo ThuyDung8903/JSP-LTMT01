@@ -18,7 +18,7 @@
         <h1 class="col">Add Book</h1>
         <a href="list" class="col-1 btn btn-primary">List</a>
     </div>
-    <form action="edit" method="post">
+    <form action="edit?id=${book.getId()}" method="post">
         <div class="mb-3">
             <label for="title" class="form-label">Title</label>
             <input type="text" class="form-control" id="title" name="title" value="${book.getTitle()}">

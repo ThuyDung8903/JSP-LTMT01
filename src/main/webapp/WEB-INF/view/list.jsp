@@ -15,9 +15,16 @@
 </head>
 <body>
 <div class="container mx-auto">
-    <div class="row justify-content-between mt-3 align-items-center">
+    <div class="row justify-content-between mt-3 align-items-center gap-2">
         <h1 class="col">List Books</h1>
         <a href="add" class="col-1 btn btn-primary">Create</a>
+        <a href="logout" class="col-1 btn btn-secondary">Logout</a>
+        <form action="list-book" method="get">
+            <label>
+                <input type="text" name="search" id="search" placeholder="Search">
+            </label>
+            <input type="submit" value="Search" class="btn btn-primary">
+        </form>
     </div>
     <table class="table table-hover mt-3">
         <thead>
@@ -46,6 +53,29 @@
         </c:forEach>
         </tbody>
     </table>
+    <div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <c:if test="${currentPage > 1}">
+                    <li class="page-item">
+                        <a class="page-link" href="list-book?page=${currentPage-1}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                </c:if>
+                <c:forEach begin="1" end="${totalPage}" var="i">
+                    <li class="page-item"><a class="page-link" href="list-book?page=${i}">${i}</a></li>
+                </c:forEach>
+                <c:if test="${currentPage < totalPage}">
+                    <li class="page-item">
+                        <a class="page-link" href="list-book?page=${currentPage+1}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </c:if>
+            </ul>
+        </nav>
+    </div>
 </div>
 </body>
 </html>

@@ -1,22 +1,36 @@
 package com.example.labguide.controller;
 
+import com.example.labguide.dals.DB;
+import com.example.labguide.dals.UserDAL;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @WebServlet(name = "LoginServlet", value = "/login")
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
+
     public LoginServlet() {
         super();
     }
+
+    protected Connection connection = DB.connect();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        if (username.equals("admin") && password.equals("123456")) {
+        boolean check = false;
+        try {
+            check = UserDAL.login(connection, username, password);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        if (check) {
             HttpSession session = request.getSession(true);
             session.setAttribute("username", username);
 
@@ -41,7 +55,7 @@ public class LoginServlet extends HttpServlet {
             response.addCookie(cUser);
             response.addCookie(cPass);
             response.addCookie(cRemember);
-            response.sendRedirect("home");
+            response.sendRedirect("list-book");
         } else {
             request.setAttribute("error", "Wrong username or password!");
             request.getRequestDispatcher("index.jsp").forward(request, response);

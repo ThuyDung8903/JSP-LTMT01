@@ -9,10 +9,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20dcddd9-cfa5-4d33-aa3e-711ea27c80a7" name="Changes" comment="">
+    <list default="true" id="20dcddd9-cfa5-4d33-aa3e-711ea27c80a7" name="Changes" comment="image bai-bai-dk-01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/dals/UserDAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/EditBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/BookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/labguide/dals/BookDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/labguide/dals/BookDAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +31,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Servlet" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Servlet" />
+        <option value="Filter" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="labguide-01" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -80,8 +93,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;labguide-01&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;bai-dk-01&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Workspace/JavaWeb31/JSP/bai-tap&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -92,7 +106,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -205,7 +219,21 @@
       <workItem from="1688470177546" duration="1151000" />
       <workItem from="1688606816947" duration="1288000" />
       <workItem from="1688608128325" duration="4181000" />
+      <workItem from="1688618153226" duration="782000" />
+      <workItem from="1688779956754" duration="9173000" />
+      <workItem from="1689058303797" duration="188000" />
+      <workItem from="1689058503690" duration="5607000" />
+      <workItem from="1689064356080" duration="1647000" />
     </task>
+    <task id="LOCAL-00001" summary="image bai-bai-dk-01">
+      <option name="closed" value="true" />
+      <created>1689058644630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689058644630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +249,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="labguide-01" />
+    <MESSAGE value="image bai-bai-dk-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="image bai-bai-dk-01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
